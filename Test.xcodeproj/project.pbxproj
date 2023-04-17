@@ -16,6 +16,7 @@
 		415FE9F026662688003CA916 /* BaseMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 415FE9EF26662688003CA916 /* BaseMapViewController.m */; };
 		415FE9F32666272B003CA916 /* QMapSDKUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 415FE9F22666272B003CA916 /* QMapSDKUtils.framework */; };
 		415FE9F6266628B0003CA916 /* PickMapPointViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 415FE9F5266628B0003CA916 /* PickMapPointViewController.m */; };
+		4219923929ED705E009CE4E5 /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4219923829ED705E009CE4E5 /* 1.jpeg */; };
 		71B2B343D13F662F4E09BFF8 /* libPods-Test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76E5284870A4DC1AA0360D4D /* libPods-Test.a */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		415FE9F22666272B003CA916 /* QMapSDKUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QMapSDKUtils.framework; sourceTree = "<group>"; };
 		415FE9F4266628B0003CA916 /* PickMapPointViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PickMapPointViewController.h; sourceTree = "<group>"; };
 		415FE9F5266628B0003CA916 /* PickMapPointViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickMapPointViewController.m; sourceTree = "<group>"; };
+		4219923829ED705E009CE4E5 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
 		76E5284870A4DC1AA0360D4D /* libPods-Test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCB3B98964486864B17C6ED5 /* Pods-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test.release.xcconfig"; path = "Target Support Files/Pods-Test/Pods-Test.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,6 +85,7 @@
 		415FE9CE26661D05003CA916 /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				4219923729ED6F41009CE4E5 /* Picture */,
 				415FE9F12666272B003CA916 /* Dependence */,
 				415FE9CF26661D05003CA916 /* AppDelegate.h */,
 				415FE9D026661D05003CA916 /* AppDelegate.m */,
@@ -108,6 +111,14 @@
 				415FE9F22666272B003CA916 /* QMapSDKUtils.framework */,
 			);
 			path = Dependence;
+			sourceTree = "<group>";
+		};
+		4219923729ED6F41009CE4E5 /* Picture */ = {
+			isa = PBXGroup;
+			children = (
+				4219923829ED705E009CE4E5 /* 1.jpeg */,
+			);
+			path = Picture;
 			sourceTree = "<group>";
 		};
 		DE837354FA44D25192695E48 /* Pods */ = {
@@ -178,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				415FE9DF26661D06003CA916 /* LaunchScreen.storyboard in Resources */,
+				4219923929ED705E009CE4E5 /* 1.jpeg in Resources */,
 				415FE9DC26661D06003CA916 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
